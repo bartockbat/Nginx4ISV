@@ -5,8 +5,8 @@ Please refer to the comments in the Dockerfile and config files for instructions
 
 to build:
 
-1. git clone https://github.com/bartockbat/rhenginex.git
-2. cd rhenginex
+1. git clone https://github.com/bartockbat/Nginx4ISV.git 
+2. cd Nginx4ISV
 3. Check all of the config files - escpecially the Dockerfile and the Nginx config files. Verify all your configs.
 4. sudo docker build -t rhel7_nginx .
 5. to run simply sudo docker run -d nginx_rhel7
