@@ -28,3 +28,7 @@ EXPOSE 80 443
 
 #Run the nginx application on launch of the container
 CMD ["nginx", "-g", "daemon off;"]
+
+#Atomic labels
+LABEL RUN /usr/bin/docker run -d IMAGE
+
